@@ -1,0 +1,32 @@
+.logo path {
+        stroke-dasharray: 710px;
+        stroke-dashoffset: 710px;
+        animation: cat 5s ease forwards;
+        fill: #000000;
+}
+
+@keyframes cat {
+    from {
+        fill-opacity: 0;
+    }
+    70% {
+        stroke-dashoffset: 0;
+
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 0;
+    }
+}
+
+.name .line {
+  stroke-dasharray: 1120px;
+  stroke-dashoffset: 0px;
+  animation: text 3s linear forwards;
+}
+
+@keyframes text {
+  to {
+    stroke-dashoffset: -1120px;
+  }
+}
