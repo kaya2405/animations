@@ -1,0 +1,16 @@
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px;
+    padding: 0;
+}
+.filled {
+    background-color: black;
+}
+.empty {
+    background-color: white;
+}
+table {
+    background: rgba(24, 109, 92, 0.62);
+    border-spacing: 2px;
+}
