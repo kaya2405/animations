@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*background: #8ebda4;*/
+}
+
+body {
+    /*margin: 50px;*/
+    overflow: hidden;
+}
+#canvas {
+    display: block;
+    border: 1.5px black solid;
+    background: #ffffff;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    margin-left: 0;
+}
