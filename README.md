@@ -11,7 +11,7 @@
    - I tried to animate pictures from the site http://www.firewatchgame.com/ on mouse movement
 
 4. svg-animation
-   - dedicated to my cat
+   - logo with cat
 
 5. star-sky
    - animated starry sky on canvas
